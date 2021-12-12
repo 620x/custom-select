@@ -3,21 +3,21 @@
     <h1>Компонент custom-select:</h1>
     <h3>Custom select</h3>
     <customSelect
-        :options="this.$store.state.options"
-        :disabled="false"
-        @input="onSelectChange($event)"
+      :options="this.$store.state.options"
+      :disabled="false"
+      @input="onSelectChange($event)"
     />
     <h3>Custom select (disabled)</h3>
     <customSelect
-        :options="this.$store.state.options"
-        :disabled="true"
-        @input="onSelectChange($event)"
+      :options="this.$store.state.options"
+      :disabled="true"
+      @input="onSelectChange($event)"
     />
     <h3>Custom select</h3>
     <customSelect
-        :options="this.$store.state.options"
-        :disabled="false"
-        @input="onSelectChange($event)"
+      :options="this.$store.state.options"
+      :disabled="false"
+      @input="onSelectChange($event)"
     />
   </div>
 </template>
@@ -36,8 +36,8 @@ export default Vue.extend({
     onSelectChange(value: Option): void {
       // do something with selected option data
       console.log(value);
-    }
-  }
+    },
+  },
 });
 </script>
 
