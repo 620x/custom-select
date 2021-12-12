@@ -1,29 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <customSelect
+        :options="options"
+        :disabled="false"
+    />
+    <customSelect
+        :options="options"
+        :disabled="true"
+    />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import customSelect from "@/components/customSelect.vue";
 
 export default Vue.extend({
   name: "App",
   components: {
-    HelloWorld,
+    customSelect,
+  },
+  data: () => {
+    return {
+      options: [
+        {name: 'Option 1', id: 1},
+        {name: 'Option 2', id: 2},
+        {name: 'Option 3', id: 3},
+        {name: 'Option 4', id: 4},
+      ]
+    };
   },
 });
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
