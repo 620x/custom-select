@@ -1,6 +1,8 @@
 <template>
   <div class="custom-select">
-    <p class="label" :class="{disabled: disabled}" @click="isDropDown = !isDropDown">{{ selectedOption.length ? selectedOption: placeHolder }}</p>
+    <p class="label" :class="{disabled: disabled, focus: isDropDown}" @click="isDropDown = !isDropDown">
+      {{ selectedOption.length ? selectedOption: placeHolder }}
+    </p>
     <div v-if="isDropDown" class="options">
       <p class="option" v-for="option in options" :key="option.id" @click="setOption(option)">
         {{ option.name }}
@@ -56,9 +58,16 @@ export default Vue.extend({
       color: #FFFFFF;
       text-align: center;
       cursor: pointer;
+      font-weight: bold;
       &.disabled {
         background-color: #95a5a6;
         pointer-events: none;
+      }
+      &.focus {
+        background-color: #34495e;
+        &:hover {
+          background-color: #34495e;
+        }
       }
       &:hover {
         background-color: #16a085;

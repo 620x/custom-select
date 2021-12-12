@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69a1920-316a-49e7-b335-1df20fdbbda1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/customSelect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/custom-select.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/ts-loader/59d746e24085ae35cad54703d89b48d2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/ts-loader/59d746e24085ae35cad54703d89b48d2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/ts-loader/91a6beaa0494829d0eccd19aaac13359.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/ts-loader/91a6beaa0494829d0eccd19aaac13359.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/06506fd3a242f00c60d404d45fefae8a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/06506fd3a242f00c60d404d45fefae8a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/23d768d2f14f64da18b82c28c1dec57e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/23d768d2f14f64da18b82c28c1dec57e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3f6d92a0ddb67dbb9503c4e2d9eec80b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3f6d92a0ddb67dbb9503c4e2d9eec80b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/41cdc3e5f9702824c3566aed197fd657.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/41cdc3e5f9702824c3566aed197fd657.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/71592679a3a8aabffc227d0507878329.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/71592679a3a8aabffc227d0507878329.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8ab5bd2bba0f4b586dd77f3bca633b12.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8ab5bd2bba0f4b586dd77f3bca633b12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b3f06755e181383abc365136126e5946.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b3f06755e181383abc365136126e5946.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bbe1e4b679cd64e860513cd5fde9041f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bbe1e4b679cd64e860513cd5fde9041f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be3372e732bc7467a528ee724d875063.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be3372e732bc7467a528ee724d875063.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ed1abd6f632fd4467622f8aa5e9562d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ed1abd6f632fd4467622f8aa5e9562d5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customSelect.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customSelect.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639294202318</updated>
-      <workItem from="1639294204269" duration="9614000" />
+      <workItem from="1639294204269" duration="12665000" />
     </task>
     <servers />
   </component>
